@@ -29,7 +29,7 @@
             </tr>
             <tr>
                 <td colspan="2" onclick="digitBtnPressed(0)">0</td>
-                <td>AC</td>
+                <td onclick="btnACPressed()">AC</td>
                 <td>/</td>
             </tr>
             <tr>
@@ -48,6 +48,11 @@
                 var currentValue = document.getElementById("inputBox").value;
                 document.getElementById("inputBox").value = currentValue + button;
             }
+        }
+
+        function btnACPressed(){
+            document.getElementById("inputBox").value = 0;
+            newLine = true;
         }
 
         </script>
