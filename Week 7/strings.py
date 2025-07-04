@@ -16,4 +16,15 @@ print(message.split(',')) #Splits the string into a list based on commas
 #upper method
 print(message.upper()) #Converts the string to uppercase
 #replace method
-print(message.replace('World', 'Python')) #Replaces 'World' with 'Python'
+print(message.replace('World', 'Python')) #Replaces 'World' with 'Python'           
+
+num = 3
+
+print(type(num))
+
+num2 = 3.14
+
+print(type(num2))
+
+
+
