@@ -26,5 +26,34 @@ num2 = 3.14
 
 print(type(num2))
 
+#varbles
 
+my_variable = 10
+total_count = 0
+user = 'Jhon'
 
+#Invalid
+second_variable = 10
+user-name = 20
+
+#Operators
+
+# Addition (+)
+# Subtraction (-)
+# Multiplication (*)
+# Division (/)
+# Modulus (%)
+# Exponentiation (**)
+
+x = 10
+y = 2
+
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x%y)
+print(x**y)
+
+x += 2
+x -= 2
