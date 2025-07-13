@@ -63,3 +63,51 @@ str2 = 'World'
 
 print(str1 + ' ' + str2)  # Concatenation
 print(str1 * 3)  # Repetition
+
+#Control Statements
+
+num = 10
+
+if num > 0:
+    print("Positive number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative number")
+
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+if num1 > num2
+    print(num1, "is greater than" , num2)
+elif num2 > num1:
+    print(num2, "is greater than", num1)
+else:
+    print("Both numbers are equal")
+
+#Loop Control Statements
+
+fruits = ["apple", "banana", "cherry", "date"]
+
+for fruit in fruits:
+    if fruit == "cherry":
+        break  # Stop the loop for "cherry"
+    print(fruit)
+
+for fruit in fruits:
+    if fruit == "cherry":
+        continue  # Skip the current iteration for "cherry"
+    print(fruit)
+
+for fruit in fruits:
+    if fruit == "cherry":
+        pass  # Do nothing for "cherry"
+    print(fruit)
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1  # Increment count by 1
+    if count == 3:
+        break  # Stop the loop when count is 3
